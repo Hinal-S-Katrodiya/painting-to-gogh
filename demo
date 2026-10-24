@@ -1,0 +1,182 @@
+.nw-hero-cover {
+    width: 60%;
+    max-width: 520px
+}
+
+.nw-hero-stars {
+    display: inline-flex;
+    gap: 2px;
+    margin-right: 2px
+}
+
+.nw-hero-stars svg {
+    width: 16px;
+    height: auto
+}
+
+.nw-hero-review {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    margin-bottom: 8px
+}
+
+.nw-hero-review-icon {
+    display: inline-flex
+}
+
+.nw-hero-review-icon img {
+    width: 14px;
+    height: auto
+}
+
+.nw-hero-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: inherit;
+    margin-bottom: 8px
+}
+
+.nw-hero-text p {
+    margin-top: 0
+}
+
+.nw-hero-text p:last-child {
+    margin-bottom: 0
+}
+
+.nw-hero-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0;
+    color: #d9d9d9
+}
+
+.nw-hero-benefits {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center
+}
+
+.nw-hero-benefit {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0
+}
+
+.nw-hero-benefit-icon {
+    display: flex
+}
+
+.nw-hero-benefit-icon img {
+    width: 20px;
+    height: auto
+}
+
+.nw-hero-features {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px
+}
+
+.nw-hero-feature {
+    border: 1px solid #3138831A;
+    border-radius: 8px;
+    background: #f3f2f8;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: calc(50% - 6px);
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0
+}
+
+.nw-hero-button-wrapper {
+    margin-top: 32px
+}
+
+.nw-hero-review-text-2 {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+@media screen and (max-width:1023px) {
+    .nw-hero-heading {
+        font-size: 28px;
+        line-height: 120%
+    }
+
+    .nw-hero-text {
+        font-size: 18px
+    }
+
+    .nw-hero-button-wrapper {
+        margin-top: 8px
+    }
+
+    .nw-hero-feature {
+        font-size: 12px;
+        width: calc(50% - 2px);
+        padding: 8px
+    }
+
+    .nw-hero-features {
+        gap: 4px
+    }
+
+    .nw-hero-benefit {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:749px) {
+    .nw-hero-cover {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .nw-hero-button-wrapper {
+        margin-top: 75%
+    }
+
+    .nw-hero-review {
+        font-size: 12px
+    }
+
+    .nw-hero-stars svg {
+        width: 14px;
+        height: auto
+    }
+
+    .nw-hero-review-icon img {
+        width: 12px;
+        height: auto
+    }
+
+    .nw-hero-benefit {
+        color: #777
+    }
+}
+
+/*# sourceMappingURL=/cdn/shop/t/7/assets/nw-hero.css.map?v=17542116160771959731775531125 */
